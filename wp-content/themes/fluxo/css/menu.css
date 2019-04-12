@@ -1,0 +1,159 @@
+#fluxo #menu {
+	float:left;
+	z-index:999;
+	position:relative;
+}
+#fluxo .menu ul {
+	width:750px;
+	float:left;
+	position:relative;
+
+		
+}
+#fluxo .menu ul li {
+	float:left;	
+	background-image:url(../imgs/marcador.gif);
+	background-position:left center;
+	background-repeat:no-repeat;
+	font-family: 'FrutigerLTStd55Roman';
+	margin:0;
+	position:relative;
+	
+}
+#fluxo .menu ul li a {
+	text-transform:uppercase;
+	color:#878787;
+	letter-spacing:1px;
+	font-size:14px;
+	float:left;
+	padding:10px 6px 8px 24px;
+	
+	
+}
+#fluxo .menu ul li:hover {
+	background:#139b4c url(../imgs/marcador_hover.gif) left center no-repeat;
+	
+}
+#fluxo .menu ul li.solu-integra:hover > .sub-menu {
+	right:0;	
+}
+#fluxo .menu ul li:hover a {
+	color:#000;	
+	word-wrap: break-word;
+}
+#fluxo .menu ul li .sub-menu {
+	display:none;
+	position:absolute;
+	top:30px;
+}
+#fluxo .menu ul li:hover > .sub-menu {
+	display:block;
+	background-color:#139b4c;
+	position:absolute;
+	width:auto;
+	margin-top:5px;
+	word-wrap: break-word;
+	max-width:741px;
+	padding:4px 5px 3px 5px;
+	z-index:100;	
+	
+}
+#fluxo .menu ul li:hover > .sub-menu span {
+	color:#FFF;	
+}
+#fluxo .menu ul li .sub-menu li {
+	float:left;	
+}
+#fluxo .menu ul li .sub-menu a {
+	background-position:left center;
+	background-repeat:no-repeat;
+	font-family: 'FrutigerLTStd55Roman';
+	padding:0px 5px;
+	background-color:#139b4c;
+	background-image:none;
+	word-wrap: break-word;
+	line-height:23px;
+	font-size:12px;
+	color:#FFF;
+	float:left;
+	
+}
+#fluxo .menu ul li .sub-menu a:hover {
+	color:#000;	
+}
+#fluxo .menu ul li .sub-menu li {
+	list-style:none;
+	background:none;
+	padding:5px 4px 4px 4px;
+	border-left:1px solid #FFF;
+}
+#fluxo .menu ul li .sub-menu li:first-child {
+	border:none;
+}
+
+#fluxo .menu ul li .sub-menu a:hover {
+	color:#000;
+	background-image:none;
+	word-wrap: break-word;	
+}
+#fluxo .menu ul li .sub-menu a:hover {
+	color:#000;	
+	word-wrap: break-word;
+}
+
+#fluxo .menu ul li .sub-menu a:hover span {
+	color:#FFF;	
+}
+#fluxo #menu-principal {
+	margin-left:10px;
+}
+#fluxo #menu-principal .ultimoElemento .sub-menu {
+	right:0;
+    width: 477px;
+	float:right;	
+}
+
+#fluxo #menu-principal .menu-item-227 ul {
+	width:410px;	
+}
+#fluxo #menu-principal .menu-item-228 ul {
+	left: -259px;
+    width: 740px;
+
+}
+#fluxo #menu-principal .menu-item-3891 ul {
+    left: -249px;
+    width: 588px;
+}
+#fluxo #menu-principal .menu-item-3899 ul {
+	left: -341px;
+    width: 509px;	
+}
+
+/* INGLES */
+
+#fluxo #menu-ingles {
+	margin-left:10px;
+}
+#fluxo #menu-ingles .ultimoElemento .sub-menu {
+	right:0;
+    width: 477px;
+	float:right;	
+}
+
+#fluxo #menu-ingles .menu-item-3009 ul {
+	width:410px;	
+}
+#fluxo #menu-ingles .menu-item-3015 ul {
+	left: -259px;
+    width: 740px;
+
+}
+#fluxo #menu-ingles .menu-item-3024 ul {
+	left: -170px;
+    width: 509px;		
+}
+#fluxo #menu-ingles .menu-item-3030 ul {
+	left: -341px;
+    width: 509px;	
+}
